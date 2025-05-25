@@ -3,25 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <title>Inicio | Salón de Belleza Gisel</title>
-  <link rel="stylesheet" href="css/estilos.css">
+  <!-- Bootstrap CSS desde CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Salón de Belleza Gisel</h1>
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="servicios.html">Servicios</a>
-      <a href="nosotros.html">Nosotros</a>
-      <a href="galeria.html">Galeria</a>
-      <a href="contacto.html">Contacto</a>
-    </nav>
+
+  <!-- Encabezado con barra de navegación -->
+  <header class="bg-danger text-white text-center py-4">
+    <div class="container">
+      <h1 class="mb-3">Salón de Belleza Gisel</h1>
+      <nav class="nav justify-content-center">
+        <a class="nav-link text-white" href="index.html">Inicio</a>
+        <a class="nav-link text-white" href="servicios.html">Servicios</a>
+        <a class="nav-link text-white" href="nosotros.html">Nosotros</a>
+        <a class="nav-link text-white" href="galeria.html">Galería</a>
+        <a class="nav-link text-white" href="contacto.html">Contacto</a>
+      </nav>
+    </div>
   </header>
-  <main>
-    <h2>Bienvenidos a Gisel</h2>
-    <p>Tu belleza, nuestra pasion. Descubre nuestros servicios de alta calidad.</p>
+
+  <!-- Contenido principal -->
+  <main class="container text-center my-5">
+    <h2 class="text-danger mb-3">Bienvenidos a Gisel</h2>
+    <p class="lead">Tu belleza, nuestra pasión. Descubre nuestros servicios de alta calidad.</p>
   </main>
-  <footer>
-    <p>&copy; 2025 Belleza Gisel</p>
+
+  <!-- Pie de página -->
+  <footer class="bg-light text-center py-3">
+    <p class="mb-0">&copy; 2025 Belleza Gisel</p>
   </footer>
+
+  <!-- Bootstrap JS (opcional para algunos componentes interactivos) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
